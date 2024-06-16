@@ -29,6 +29,7 @@ const postCard = () => {
             <p className={styles.desc}>{post.body}</p> */}
             <h1 className={styles.title}>Cyberpunk from the view of a cat</h1>
             <p className={styles.desc}>A dystopian future from the perspective of a cat.</p>
+            <Link className={styles.link} href="/blog/post">VER MAIS</Link>
             {/* <Link className={styles.link} href={`/blog/${post.slug}`}>VER MAIS</Link> */}
         </div>
     </div>
